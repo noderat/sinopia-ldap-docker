@@ -15,6 +15,22 @@ auth:
     # You can set this to -1 to disable registration.
     #max_users: 1000
 
+  #ldap:
+    #type: ldap
+    #groupNameAttribute: 'cn'
+    #client_options:
+      #url: "ldaps://ldap.example.com"
+      #adminDn: "cn=admin,dc=example,dc=com"
+      #adminPassword: "admin"
+      #searchBase: "ou=People,dc=example,dc=com"
+      #searchFilter: "(uid={{username}})"
+      #cache: False
+      #searchAttributes:
+        #- "*"
+        #- memberOf
+      #tlsOptions:
+        #rejectUnauthorized: False
+        
 # a list of other known repositories we can talk to
 uplinks:
   npmjs:
