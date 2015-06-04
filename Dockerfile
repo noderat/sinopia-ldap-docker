@@ -1,7 +1,7 @@
 # Pull base image.
 FROM rnbwd/node-io:1.7.1
 
-MAINTAINER RnbWd <dwisner6@gmail.com>
+MAINTAINER RnbWd <plitex@gmail.com>
 
 # Sinopia Version / Path / Backup
 
