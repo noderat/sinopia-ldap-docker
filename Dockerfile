@@ -11,6 +11,7 @@ RUN git clone https://github.com/RnbWd/sinopia.git
 WORKDIR /sinopia
 RUN git checkout $version
 RUN npm install --production
+RUN npm install sinopia-ldap
 
 # Clean
 
