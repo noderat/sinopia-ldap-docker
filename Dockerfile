@@ -11,7 +11,9 @@ RUN git clone https://github.com/RnbWd/sinopia.git
 WORKDIR /sinopia
 RUN git checkout $version
 RUN npm install --production
-RUN npm install sinopia-ldap
+
+#Use my fork until PR11 https://github.com/rlidwka/sinopia-ldap/pull/11 is merged
+RUN npm install --production https://github.com/plitex/sinopia-ldap.git
 
 # Clean
 
