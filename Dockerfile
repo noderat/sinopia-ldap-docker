@@ -5,7 +5,7 @@ MAINTAINER PliTeX <plitex@gmail.com>
 
 # Sinopia Version / Path / Backup
 
-ENV version v1.2.2
+ENV version master
 
 RUN git clone https://github.com/plitex/sinopia.git
 WORKDIR /sinopia
